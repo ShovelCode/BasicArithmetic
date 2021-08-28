@@ -10,5 +10,11 @@ int main ( void ){
 	
 	if(num1 > num2){
 		printf("%d is larger.", num1);
+	}else if (num1 < num2){
+		printf("%d is larger.", num2);
+	}else if (num1 == num2){
+		printf("The two numbers are equal.");
+	}else {
+		printf("Uncomparable.");
 	}
 }
