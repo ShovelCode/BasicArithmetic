@@ -2,10 +2,12 @@
 
 void rectangle();
 void oletter();
+void arrowup();
 
 int main ( void ){
 	rectangle();
-	oletter();		
+	oletter();
+	arrowup();		
 }
 
 void rectangle(){
@@ -29,4 +31,23 @@ void oletter(){
 
 	printf("*       *\n");
 	printf("*       *\n");
+	printf("*       *\n");
+
+	printf("*       *\n");
+	printf(" *     * \n");
+	printf("   ***   \n");
+
+}
+
+void arrowup(){
+	printf("    *    \n");
+	printf("   ***   \n");
+	printf("  *****  \n");
+        printf("    *    \n");
+ 	printf("    *    \n");
+	printf("    *    \n");
+	printf("    *    \n");
+	printf("    *    \n");
+	printf("    *    \n");
+
 }
