@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h> //for strlen and strcat
+#include <ctype.h> //for isupper() and islower();
 
 int main ( void ){
 	char s1[20]; //20 character string
